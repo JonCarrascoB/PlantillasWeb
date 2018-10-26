@@ -1,0 +1,118 @@
+﻿*{
+    box-sizing:border-box;
+}
+.Principal{
+    
+    float:left;
+
+}
+ul{
+    
+    padding:0px;
+}
+.Main{
+    width:66%;
+    float:right;
+}
+#TituloPrincipal{
+    background-color:white;
+    float:left;
+}
+#Menu{
+    margin-top:16px;
+    list-style-type:none;
+    display:block;
+    color:white;
+    /*text-align:right;*/
+    padding:6px;
+    text-decoration:none;
+    margin:auto;
+    overflow:hidden;
+    background-color:darkred;
+    
+}
+
+li {
+    display: block;
+    width:20%;
+    margin:auto;
+    float: left;
+    text-align: center;
+    font-family:Arial;
+    font-size:20px;
+    color:white;
+    padding: 6px;
+    text-decoration: none;
+    
+}
+h1{
+    font-family:Broadway;
+    font-size:30px;
+}
+h2 {
+    font-family: Arial;
+    font-size: 12px;
+}
+}.FBlock{
+     border-bottom-style:solid;
+     border-bottom-color:darkgray;
+     border-top-style:solid;
+     border-top-color:darkgrey;
+     background-color:aliceblue;
+     align-content:center;
+     text-align:center;
+ }
+#parrafoinicial {
+   
+    margin-bottom:60px;
+    margin-left:100px;
+    margin-right:80px;
+    margin-top:10px;
+    font-size:20px;
+    align-content:center;
+    text-align:center;
+}
+#imag1 {
+    
+    align-content: center;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+.cuadro {
+    margin-top: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    display: block;
+    align-content: center;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Bauhaus 93';
+    font-size:20px;
+    color: white;
+    background-color: darkred;
+}
+.SBlock {
+    align-content: center;
+    text-align: center;
+    width: 100%;
+    float: left;
+    border-bottom-style: solid;
+    border-bottom-color: darkgray;
+    float:right
+}
+#container {
+    width:30%;
+    float: right;
+}
+#Block1 {
+    padding; 
+    margin-bottom:60px;
+}
+#Block2 {
+    margin-bottom: 60px;
+}
+#Block3 {
+    margin-bottom: 60px;
+}
+
