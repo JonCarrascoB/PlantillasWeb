@@ -1,0 +1,19 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2E488F2E-3A9F-487F-AD0F-2B8E7A46B178}"
+	ProjectSection(SolutionItems) = preProject
+		Empire.css = Empire.css
+		Empire.html = Empire.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {08A84B37-861D-4582-9343-5BC2EEFF4E4D}
+	EndGlobalSection
+EndGlobal
