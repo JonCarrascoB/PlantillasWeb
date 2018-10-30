@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+
     <link rel="stylesheet" type="text/css" href="Plantilla.css" />
 </head>
 <body>
@@ -124,7 +125,7 @@
                             <p>Nullam malesuada, massa in elementum gravida, tellus turpis cursus nulla, et pharetra massa urna eget nunc.</p>
                         </div>
                     </div>
-                    
+
                     <div id="text2">
                         <div id="ima5">
                             <img src="ancient-archaeology-architecture-248218.jpg" alt="ancient" title="European" />
@@ -134,22 +135,22 @@
                             <p>Nullam malesuada, massa in elementum gravida, tellus turpis cursus nulla, et pharetra massa urna eget nunc.</p>
                         </div>
                     </div>
-                    
+
                 </div>
                 <div id="part2">
                     <h3>Company Details</h3>
                     <p>
                         Company Name<br>Street Name & Number><br>Town<br> Postcode/Zip
                     </p>
-                    
+
                     <p>
                         Tel xxxx xxxxxxxx<br>Fax xxxx xxxxxxxx<br>Email: contact@mydomain.com
                     </p>
-                    
+
                     <p>
                         <strong>Office Hours</strong><br>Monday-Friday: 08:00-17:30<br>Saturday: 08:00-13:00
                     </p>
-                    
+
                 </div>
                 <div id="part3">
                     <h3>Contact Us</h3>
@@ -168,6 +169,112 @@
             </div>
         </div>
 
+        <script>
+            //let numero = prompt("Introduce un numero");
+            //let suma = 0;
+            //console.log(numero);
+            //for (let i = 0; i <= numero; i++)
+            //{
+            //    suma = suma + i;
+            //};
+            //console.log(suma);
 
+            //Contadores
+            const NORMAL = 1, NASA = 2, UNI = 3, SESAMO = 4, POSTAL = 5, EXIT = 6;
+            let count = 0;
+            do {
+                let option = parseInt(prompt("Que quieres hacer, señala del 1 al 6.\nPulsa 1 para contar normalmente.\nPulsa 2 para contar como un ingeniero de la Nasa.\nPulsa 3 para contar como un estudiante universitario.\nPulsa 4 para contar como en barrio Sesamo.\nPulsa 5 para contar como un cartero.\nPulsa 6 para salir."));
+
+
+                switch (option) {
+                    case NORMAL:
+                        
+                        do {
+                           count = parseInt(prompt("¿Hasta que numero quieres contar? El numero debe ser mayor a 1"));
+                        } while (count <= 0);
+                        for (let i = 1; i <= count; i++) {
+                            alert(i);
+                        };
+                        break;
+                    case NASA:
+                        
+                        do {
+                             count = parseInt(prompt("¿Hasta que numero quieres contar? El numero debe ser mayor a 1"));
+                        } while (count <= 0);
+                        for (let i = count; i >= 0; i--) {
+                            alert(i);
+                        };
+                        alert("Ignicion");
+                        break;
+                    case UNI:
+                        
+                        do {
+                            count = parseInt(prompt("¿Hasta que numero quieres contar? El numero debe ser mayor a 1"));
+                        } while (count <= 0);
+                        for (let i = 1; i <= count; i++) {
+                            let valorcard = i % 10;
+                            if (valorcard === 1) {
+                                alert("AS")
+                            }
+                            else if (valorcard === 2) {
+                                alert("2")
+                            }
+                            else if (valorcard === 3) {
+                                alert("3")
+                            }
+                            else if (valorcard === 4) {
+                                alert("4")
+                            }
+                            else if (valorcard === 5) {
+                                alert("5")
+                            }
+                            else if (valorcard === 6) {
+                                alert("6")
+                            }
+                            else if (valorcard === 7) {
+                                alert("7")
+                            }
+                            else if (valorcard === 8) {
+                                alert("SOTA")
+                            }
+                            else if (valorcard === 9) {
+                                alert("CABALLO")
+                            }
+                            else if (valorcard === 0) {
+                                alert("REY")
+                            }
+                        }
+                        break;
+                    case SESAMO:
+                        
+                        do {
+                            count = parseInt(prompt("¿Hasta que numero quieres contar? El numero debe ser mayor a 1"));
+                        } while (count <= 0);
+                        for (let i = 1; i <= count; i++) {
+                            alert("¡¡¡¡" + i + "!!!!");
+                        };
+                        break;
+                    case POSTAL:
+                        
+                        do {
+                            count = parseInt(prompt("¿Hasta que numero quieres contar? El numero debe ser mayor a 1"));
+                        } while (count <= 0);
+                        for (let i = 1; i <= count; i+=2) {
+                            alert(i)
+                        };
+                        for (let i = 2; i <= count; i += 2) {
+                            alert(i)
+                        };
+                        break;
+                    case EXIT:
+                        break;
+                    default:
+                        alert("la opcion no es correcta...")
+                        break;
+                }
+
+            } while (option <= 0 && option > 6);
+
+        </script>
 </body>
 </html>
