@@ -1,3 +1,31 @@
-﻿main{
-    background-image:url(enlist12.jpg/url.img);
+﻿* {
+    box-sizing: border-box;
+}
+body{
+    background-image:url('enlist12.jpg');
+}
+.nav1{
+
+}
+
+
+.nav2{
+    width: 100%;
+    align-content:center;
+}
+#image1{
+    margin:10px;
+}
+.block1{
+    width:50%;
+    align-content:center;
+    text-align:center;
+    display:block;
+    background-color:darkgray;
+
+}
+#menu{
+    font-family:'Bauhaus 93';
+    font-size:20px;
+    color:whitesmoke;
 }
