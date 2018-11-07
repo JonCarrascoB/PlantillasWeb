@@ -86,6 +86,10 @@ function crearF() {
 //}
 
 
+
+
+
+
     function showDate(explanation) {
         let result = "<p>" + explanation + "</p>";
         document.getElementById("info").innerHTML = result;
